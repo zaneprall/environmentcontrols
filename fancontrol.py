@@ -20,3 +20,9 @@ while var==1 :
   print ("Stop : %s" % time.ctime())
   GPIO.output(2, False)
   time.sleep(3)
+
+  
+  
+  
+   #Note - times may be off, depending on adjustments throughout the year.
+    
