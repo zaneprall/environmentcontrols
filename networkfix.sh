@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-wget -q 
+wget -q --spider http://google.com
 
 if [ $? -eq 0 ]; then
     echo "Still working. "
