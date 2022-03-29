@@ -1,0 +1,11 @@
+
+CREATE TABLE `environmentals` (
+  `serial` int(11) NOT NULL AUTO_INCREMENT,
+  `date` datetime DEFAULT current_timestamp(),
+  `generation` int(3) NOT NULL,
+  `image` longblob DEFAULT NULL,
+  `notes` varchar(255) DEFAULT NULL,
+  `temperaturef` int(11) DEFAULT NULL,
+  `humidity` int(11) DEFAULT NULL,
+  PRIMARY KEY (`serial`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4;
